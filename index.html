@@ -2,6 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./assets/images/glasses.png" />
     <title>My Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -28,7 +29,7 @@
     <!-- HERO -->
     <section class="hero">
       <div class="hero-cta">
-        <h2>Welcome</h2>
+        <h2>Welcome!</h2>
       </div>
     </section>
     <main class="page-wrapper">
@@ -37,22 +38,30 @@
         <h2>About Me</h2>
         <div>
           <p>
-            Helvetica put a bird on it church-key Blue Bottle banjo bespoke
-            brunch Etsy authentic Marfa quinoa typewriter plaid direct trade
-            small batch wayfarers bicycle rights cliche craft beer gastropub
-            single-origin coffee Godard Carles you probably haven't heard of
-            them irony pickled kitsch synth sriracha gentrify literally heirloom
-            blog Truffaut paleo scenester
+            Hello World! I am a Musician, Educator, Restauranteur and aspiring
+            web developer currently residing in Los Angeles, California. I
+            studied Music Education over the course of 5 years at California
+            State University, Los Angeles and currently hold a Bachelor's Degree
+            in Music Education. I was the Music Director at Fair Oaks Academy in
+            Altadena for over 4 years, with an emphasis on Instrumental Music
+            and Jazz. My experience in teaching and performing has taken me
+            around the country and the world. When I am not performing/teaching,
+            I am also the General Manager of the Chipotle Mexican Grill at the
+            Glendale Galleria.
           </p>
           <p>
-            Echo Park sriracha Pinterest vegan biodiesel 90's irony iPhone
-            Kickstarter Carles crucifix kitsch narwhal dreamcatcher pickled
-            trust fund selvage art party letterpress Tumblr post-ironic kogi
-            Thundercats Tonx Brooklyn Pitchfork Odd Future authentic normcore
-            freegan leggings Schlitz chambray organic tousled retro fap squid
-            street art church-key fashion axe Wes Anderson bespoke whatever
-            gentrify banh mi you probably haven't heard of them American Apparel
-            next level pug ugh.
+            My aspirations for web developing began when I was a teenager,
+            connecting with my friends on social media on blogs such as "Xanga"
+            and "MySpace". I loved manipulating HTML code and found that editing
+            specific code would render a whole world of possibilities in
+            designing my page.
+          </p>
+          <p>
+            Although life has taken me through many phases, nothing excites me
+            more than the possibility of becoming a future web developer in the
+            industry. Here on my porfolio you will find links to some of my
+            proud work in HTML/CSS/JavaScript. Please feel free to reach out and
+            connect with me!
           </p>
         </div>
       </section>
@@ -61,34 +70,59 @@
       <section class="page-section" id="work">
         <h2>Work</h2>
         <div class="grid-container">
-          <a href="#" class="grid-item surf-report">
+          <a
+            href="#"
+            class="grid-item air-hiker"
+            id="air-hiker"
+            onclick="document.location=this.id +'.html'; return false;"
+          >
             <div>
-              <h3>Surf Report</h3>
-              <span>MERN Stack</span>
+              <h3>Air-Hiker</h3>
+              <span>HTML/CSS/Javascript</span>
             </div>
           </a>
 
-          <a href="#" class="grid-item led-wall">
+          <a
+            href="#"
+            class="grid-item password-generator"
+            id="password-generator"
+            onclick="document.location=this.id +'.html'; return false;"
+          >
             <div>
-              <h3>LED Wall</h3>
-              <span>Node/IoT</span>
+              <h3>Password Generator</h3>
+              <span>JavaScript</span>
             </div>
           </a>
-          <a href="#" class="grid-item react-calc">
+          <a
+            href="#"
+            class="grid-item work-day-planner"
+            id="work-day-planner"
+            onclick="document.location=this.id +'.html'; return false;"
+          >
             <div>
-              <h3>Calculator</h3>
-              <span>React/JavaScript/CSS</span>
+              <h3>Workday Planner</h3>
+              <span>JavaScript</span>
             </div>
           </a>
 
-          <a href="#" class="grid-item pastel-puzzles">
+          <a
+            href="#"
+            class="grid-item weather-dashboard"
+            id="weather-dashboard"
+            onclick="document.location=this.id +'.html'; return false;"
+          >
             <div>
-              <h3>Pastel Puzzels</h3>
-              <span>MERN Stack</span>
+              <h3>Weather Dashboard</h3>
+              <span>JavaScript</span>
             </div>
           </a>
 
-          <a href="#" class="grid-item run-buddy">
+          <a
+            href="#"
+            class="grid-item run-buddy"
+            id="run-buddy"
+            onclick="document.location=this.id +'.html'; return false;"
+          >
             <div>
               <h3>Run Buddy</h3>
               <span>HTML/CSS</span>
@@ -110,5 +144,6 @@
         </div>
       </section>
     </main>
+    <script src="./assets/script.js"></script>
   </body>
 </html>

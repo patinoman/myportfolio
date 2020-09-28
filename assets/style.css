@@ -223,7 +223,7 @@ section {
 .grid-item {
   border: 5px solid floralwhite;
   grid-column: span 4;
-  background-color: dodgerblue;
+  background-color: transparent;
   color: #31343e;
   min-height: 150px;
   display: flex;
@@ -284,26 +284,31 @@ section {
 }
 
 /* PORTFOLIO PROJECT IMAGES */
+
+.air-hiker {
+  background-image: url("./images/airhiker.png");
+  background-size: cover;
+}
+
+.password-generator {
+  background-image: url("./images/password-generator.png");
+  background-size: cover;
+}
+
+.work-day-planner {
+  background-image: url("./images/work-day-planner.png");
+  background-size: cover;
+}
+
+.weather-dashboard {
+  background-image: url("./images/weather-dashboard.png");
+  background-size: cover;
+}
+
 .run-buddy {
-  background-image: url("./images/hero.jpg");
+  background-image: url("./images/run-buddy.png");
+  background-size: cover;
 }
-
-.led-wall {
-  background-image: url("./images/hero.jpg");
-}
-
-.react-calc {
-  background-image: url("./images/hero.jpg");
-}
-
-.pastel-puzzles {
-  background-image: url("./images/hero.jpg");
-}
-
-.surf-report {
-  background-image: url("./images/hero.jpg");
-}
-
 /* END PORTFOLIO PROJECT IMAGES */
 
 @media screen and (max-width: 980px) {
