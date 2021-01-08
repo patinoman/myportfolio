@@ -309,6 +309,11 @@ section {
   background-image: url("./images/run-buddy.png");
   background-size: cover;
 }
+
+.wantings {
+  background-image: url("./images/wantings.png");
+  background-size: cover;
+}
 /* END PORTFOLIO PROJECT IMAGES */
 
 @media screen and (max-width: 980px) {

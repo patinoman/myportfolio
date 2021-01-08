@@ -13,3 +13,6 @@ document.getElementById("weather-dashboard").onclick = function () {
 document.getElementById("run-buddy").onclick = function () {
   location.href = "https://patinoman.github.io/run-buddy/";
 };
+document.getElementById("wantings").onclick = function () {
+  location.href = "https://warm-crag-68291.herokuapp.com/";
+};
